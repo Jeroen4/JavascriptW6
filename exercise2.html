@@ -12,27 +12,17 @@
             robotArm.moveLeft();
               }
               robotArm.grab();
-              robotArm.moveRight();
-              robotArm.moveRight();
-              robotArm.moveRight();
-              robotArm.moveRight();
-              robotArm.moveRight();
-              robotArm.moveRight();
-              robotArm.moveRight();
-              robotArm.moveRight();
-              robotArm.moveRight();
+              for (var i = 0; i<9; i++) {
+                robotArm.moveRight();
+                }
               robotArm.drop();
-              robotArm.moveLeft();
-              robotArm.moveLeft();
-              robotArm.moveLeft();
-              robotArm.moveLeft();
-              robotArm.moveLeft();
+              for (var i = 0; i<5; i++) {
+                robotArm.moveLeft();
+                }
               robotArm.grab();
-              robotArm.moveRight();
-              robotArm.moveRight();
-              robotArm.moveRight();
-              robotArm.moveRight();
-              robotArm.moveRight();
+              for (var i = 0; i<5; i++) {
+                robotArm.moveRight();
+                }
               robotArm.drop();
               robotArm.moveLeft();
               robotArm.moveLeft();
