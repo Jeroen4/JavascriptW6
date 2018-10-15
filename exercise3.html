@@ -11,20 +11,12 @@
             robotArm.loadLevel("exercise 3");
 
             // Jou instructies volgen hier
-            robotArm.grab();
+            for (var i = 0; i <3; i++) {
+                robotArm.grab();
             robotArm.moveRight();
             robotArm.drop();
             robotArm.moveLeft();
-            
-            robotArm.grab();
-            robotArm.moveRight();
-            robotArm.drop();
-            robotArm.moveLeft();
-
-            robotArm.grab();
-            robotArm.moveRight();
-            robotArm.drop();
-            robotArm.moveLeft();
+            }
 
             robotArm.grab();
             robotArm.moveRight();
